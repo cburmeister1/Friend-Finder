@@ -11,8 +11,8 @@ module.exports = function(app) {
 		var userInput = req.body;
 		var userResponse = userInput.scores;
 		var match = {
-			name: "",
-			photo: "",
+			author: "",
+			quote: "",
 			difference: 1000
 		};
 

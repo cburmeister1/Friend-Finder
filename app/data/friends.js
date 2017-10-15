@@ -1,7 +1,7 @@
 var friends = [
 	{
 		name: "Billy",
-		photo: "http://www.ideaeconomy.net/wp-content/uploads/2010/11/businessbilly.png",
+		photo: "https://i.imgur.com/XuSAy50.png",
 		scores:[2, 3, 1, 4, 2, 3, 2, 2, 4, 1]
 	},{
 		name: "Johnny",

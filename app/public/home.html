@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>FriendFinder</title>
 
 	<!-- Latest compiled and minified CSS & JS -->
@@ -11,30 +13,23 @@
 
 	<!-- Font Awesome Glyphicons -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-</head>
 
+	<!-- CSS -->
+	<link href="/static/css/style.css" rel="stylesheet">
+</head>
 <body>
 	<div class="container">
-		
-		<div class="jumbotron">
+		<div class="header">
 			<h1 class=""><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
 			<hr>
-			<h2 class="">Answer a few basic questions. </h2>
-			<h2 class="">Then find a friend with the greatest compatibility!</h2>
+			<h2 class="text-muted">Answer a few basic questions to find a friend with the greatest compatibility!</h2>
 			<br>
-
 			<div class="">
 				<a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>	
+				<br><br>
+				<p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/cburmeister1/Friend-Finder" target="_blank">GitHub Repo</a></p>				
 			</div>
-
 		</div>
-
-	    <footer class="footer">
-	      <div class="container">
-		        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/cburmeister1/Friend-Finder">GitHub Repo</a></p>
-	      </div>
-	    </footer>
-	</div>
-		
+	</div>		
 </body>
 </html>
